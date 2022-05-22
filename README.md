@@ -1,1 +1,1 @@
-# AWD-practice-qs
+# practice-questions
