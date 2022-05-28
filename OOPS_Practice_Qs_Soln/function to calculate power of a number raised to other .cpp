@@ -4,13 +4,12 @@ using recursion where the numbers 'a' and 'b' are to be entered by the user
 
 #include<iostream>
 using namespace std;
-int pow(int x, int y)
+int pow(int x, int y)//input 2 variables from the user
 {
     if(y==0)
         return 1;
     else
-        return x*pow(x,y-1);
-}
+        return x*pow(x,y-1);//pow
 
 int main()
 {
