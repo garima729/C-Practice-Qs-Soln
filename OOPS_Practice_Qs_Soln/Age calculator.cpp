@@ -1,7 +1,7 @@
 // Age calculator
 #include <iostream>
 using namespace std;
-// function to calculate current age
+// function to calculate current age of a person
 void findAge(int cd, int cm, int cy, int bd, int bm, int by)
 {
     // days of every month
