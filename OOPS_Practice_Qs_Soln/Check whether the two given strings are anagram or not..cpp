@@ -1,9 +1,9 @@
 /* Check whether the two given strings are anagram or not. */
-
+//anagram:a word or phrase that is made by arranging the letters of another word or phrase in a different order
 #include <iostream>
 using namespace std;
 
-int anagram(string s1, string s2)
+int anagram(string s1, string s2)//input
 {
     int a=1,b=1;
     int l1=s1.length();
@@ -30,7 +30,7 @@ int main()
     cin >> s2;
     int a=anagram(s1,s2);
     if(a==1)
-        cout << "Angram String";
+        cout << "Anagram String";
     else
         cout << "Not Anagram String";
     return 0;
