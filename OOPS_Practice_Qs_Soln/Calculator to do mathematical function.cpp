@@ -1,5 +1,6 @@
 /* Calculator to do mathematical function in separate function asking from
 user what to do */
+//C++ CODE
 
 #include <iostream>
 using namespace std;
